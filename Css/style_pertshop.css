@@ -145,18 +145,15 @@ h2{
     }
 
 
-    .flex-container, .container, img{
+    .flex-container, .container{
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-  
+        text-align: center;
     }
     .col{
         padding-top: 8px;
-    }
-    .fundo-verde{
-        width: 100%;
     }
     .produto{
         padding-top: 8px;
@@ -165,5 +162,5 @@ h2{
     .produto figure{
         border-radius: 8px;
     }
-        
+
 }
